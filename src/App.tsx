@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Caffeinated from "./components/Caffeinated";
 import NonCaffeinated from "./components/NonCaffeinated";
 import Specials from "./components/Specials";
