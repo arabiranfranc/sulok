@@ -1,21 +1,21 @@
 export const caffeinated = [
   {
     name: "Americano",
-    imgUrl: "src/assets/americano.png",
+    imgUrl: "assets/americano.png",
     smallPrice: 70,
     largePrice: 85,
     hotPrice: 75,
   },
   {
     name: "White Chocolate Mocha",
-    imgUrl: "src/assets/whitechocolatemocha.png",
+    imgUrl: "assets/whitechocolatemocha.png",
     smallPrice: 80,
     largePrice: 95,
     hotPrice: 85,
   },
   {
     name: "Salted Caramel",
-    imgUrl: "src/assets/saltedcaramel.png",
+    imgUrl: "assets/saltedcaramel.png",
     smallPrice: 80,
     largePrice: 95,
     hotPrice: 85,
@@ -98,27 +98,27 @@ export const specials = [
 export const staffs = [
   {
     name: "Tin",
-    imgUrl: "src/assets/staffs/malupiton.jpg",
+    imgUrl: "assets/staffs/malupiton.jpg",
     position: "Barista",
   },
   {
     name: "Eric",
-    imgUrl: "src/assets/staffs/malupiton.jpg",
+    imgUrl: "assets/staffs/malupiton.jpg",
     position: "Barista",
   },
   {
     name: "Eric",
-    imgUrl: "src/assets/staffs/malupiton.jpg",
+    imgUrl: "assets/staffs/malupiton.jpg",
     position: "Helper",
   },
   {
     name: "Eric",
-    imgUrl: "src/assets/staffs/malupiton.jpg",
+    imgUrl: "assets/staffs/malupiton.jpg",
     position: "Keyboard Warrior",
   },
   {
     name: "Eric",
-    imgUrl: "src/assets/staffs/malupiton.jpg",
+    imgUrl: "assets/staffs/malupiton.jpg",
     position: "Bossing",
   },
 ];
