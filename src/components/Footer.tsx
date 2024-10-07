@@ -3,7 +3,6 @@ import {
   Instagram,
   LocationOn,
   PhoneAndroid,
-  Twitter,
 } from "@mui/icons-material";
 import { Box, Typography } from "@mui/material";
 
@@ -39,9 +38,22 @@ export default function Footer() {
           justifyContent: "center",
         }}
       >
-        <Facebook sx={{ cursor: "pointer" }} />
-        <Instagram sx={{ cursor: "pointer" }} />
-        <Twitter sx={{ cursor: "pointer" }} />
+        <a
+          href={`https://www.facebook.com/kape.sa.sulok`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ cursor: "pointer", textDecoration: "none" }}
+        >
+          <Facebook sx={{ color: "inherit" }} />
+        </a>
+        <a
+          href={`https://www.instagram.com/sa.sulok`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ cursor: "pointer", textDecoration: "none" }}
+        >
+          <Instagram sx={{ color: "inherit" }} />
+        </a>
       </Box>
       <Box className="text-center">
         <p className="text-md my-3 opacity-50">
