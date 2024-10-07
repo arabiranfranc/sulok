@@ -20,6 +20,14 @@ const ButtonPopOver = () => {
     };
   }, []);
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setChecked(false); // Close the popover after clicking
+    }
+  };
+
   return (
     <Box ref={ref} sx={{ position: "relative" }}>
       <Button
@@ -33,7 +41,7 @@ const ButtonPopOver = () => {
           justifyContent: "center",
           alignItems: "center",
           width: "60px",
-          height: "60px", //
+          height: "60px",
         }}
       >
         <img
@@ -78,7 +86,8 @@ const ButtonPopOver = () => {
                 }}
               >
                 <Link
-                  href={`#${item}`}
+                  component="button"
+                  onClick={() => scrollToSection(item)}
                   sx={{ textDecoration: "none", color: "#942b04" }}
                 >
                   <Typography variant="subtitle2">{item}</Typography>
