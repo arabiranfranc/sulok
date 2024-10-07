@@ -14,7 +14,7 @@ const App: React.FC = () => {
       >
         <ButtonPopOver />
       </div>
-      <div className="bg-[#dfcaa0] text-white min-h-screen font-inter p-10">
+      <div className="bg-[#e5dfcc] text-white min-h-screen font-inter p-10">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Caffeinated />
         </div>
@@ -24,7 +24,7 @@ const App: React.FC = () => {
         <div className="max-w-5xl w-11/12 mx-auto mt-[100px]">
           <Specials />
         </div>
-        <Staff />
+        {/* <Staff /> */}
       </div>
 
       <Footer />

@@ -1,9 +1,15 @@
-import { Facebook, Instagram, Twitter } from "@mui/icons-material";
+import {
+  Facebook,
+  Instagram,
+  LocationOn,
+  PhoneAndroid,
+  Twitter,
+} from "@mui/icons-material";
 import { Box, Typography } from "@mui/material";
 
 export default function Footer() {
   return (
-    <Box sx={{ padding: "30px" }}>
+    <Box sx={{ padding: "30px" }} id="Contacts">
       <Box
         sx={{
           bgcolor: "#fff",
@@ -14,8 +20,15 @@ export default function Footer() {
           margin: "16px 0",
         }}
       >
-        <Typography>0999999999</Typography>
-        <Typography>Taguig</Typography>
+        <Box sx={{ display: "flex" }}>
+          <PhoneAndroid />
+          <Typography>+639165831311</Typography>
+        </Box>
+
+        <Box sx={{ display: "flex" }}>
+          <LocationOn />
+          <Typography>Sa Sulok Fernandez, Taguig</Typography>
+        </Box>
       </Box>
       <Box
         sx={{
@@ -26,9 +39,9 @@ export default function Footer() {
           justifyContent: "center",
         }}
       >
-        <Facebook />
-        <Instagram />
-        <Twitter />
+        <Facebook sx={{ cursor: "pointer" }} />
+        <Instagram sx={{ cursor: "pointer" }} />
+        <Twitter sx={{ cursor: "pointer" }} />
       </Box>
       <Box className="text-center">
         <p className="text-md my-3 opacity-50">

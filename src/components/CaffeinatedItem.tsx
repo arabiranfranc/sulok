@@ -16,7 +16,7 @@ const CaffeinatedItems: React.FC<CaffeinatedProps> = ({
   hotPrice,
 }) => {
   return (
-    <div className="w-72 bg-orange-900 shadow-md rounded-xl duration-500  hover:scale-105 hover:shadow-xl">
+    <div className="w-72 bg-[#942b04] shadow-md rounded-xl duration-500  hover:scale-105 hover:shadow-xl">
       <img
         src={imgUrl}
         alt="Product"

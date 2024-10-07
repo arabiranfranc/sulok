@@ -5,7 +5,7 @@ import SpecialsItem from "./SpecialsItem";
 
 const Specials: React.FC = () => {
   return (
-    <div>
+    <div id="Specials">
       <Title>Specials</Title>
       <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-10 gap-x-14 mt-10">
         {specials.map((item, index) => (

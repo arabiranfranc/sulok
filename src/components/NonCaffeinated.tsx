@@ -5,8 +5,8 @@ import NonCaffeinatedItems from "./NonCaffeinatedItem";
 
 const NonCaffeinated: React.FC = () => {
   return (
-    <div>
-      <Title>NonCaffeinated</Title>
+    <div id="Non Caffeinated">
+      <Title>Non Caffeinated</Title>
       <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-10 gap-x-14 mt-10">
         {nonCaffeinated.map((item, index) => (
           <NonCaffeinatedItems
