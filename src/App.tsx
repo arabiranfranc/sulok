@@ -4,7 +4,6 @@ import NonCaffeinated from "./components/NonCaffeinated";
 import Specials from "./components/Specials";
 import ButtonPopOver from "./components/ButtonPopOver";
 import Footer from "./components/Footer";
-import Staff from "./components/Staff";
 
 const App: React.FC = () => {
   return (
@@ -24,7 +23,6 @@ const App: React.FC = () => {
         <div className="max-w-5xl w-11/12 mx-auto mt-[100px]">
           <Specials />
         </div>
-        {/* <Staff /> */}
       </div>
 
       <Footer />
